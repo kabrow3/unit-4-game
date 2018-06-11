@@ -1,7 +1,54 @@
 
 
 .crystal-image {
-  width: 300px;
-  height: 300px;
+  width: 150px;
+  height: 150px;
 }
+
+top {
+  background-color: #cc6600;
+}
+
+title {
+  color:#fff;
+}
+
+body {
+ background-color: #ffe6cc;
+ color: #2fb62f;
+}
+
+target {
+  background-color: #2fb62f;
+
+
+}
+
+winloss {
+  background-color: #4dffff;
+}
+
+#wins {
+
+}
+
+#losses {
+
+}
+
+crystals {
+
+}
+
+totalscoreis {
+  background-color: #009999;
+  color: #fff;
+}
+
+score {
+  color: #fff;
+  background-color: #009999
+}
+
+
 
