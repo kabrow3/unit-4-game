@@ -1,53 +1,62 @@
-
-
 .crystal-image {
-  width: 150px;
-  height: 150px;
-}
-
-top {
-  background-color: #cc6600;
-}
-
-title {
-  color:#fff;
+  width: 120px;
+  height: 120px;
+  margin-right: 5px;
+  margin-bottom: 10px;
 }
 
 body {
- background-color: #ffe6cc;
- color: #2fb62f;
+  background: url("../images/background.jpg");
+} 
+
+#top {
+  padding: 15px;
+  font-family: 'Times New Roman', Times, serif; 
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
-target {
-  background-color: #2fb62f;
-
-
+#body {
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
-winloss {
-  background-color: #4dffff;
+#target {
+  padding: 15px;
+  margin-top: 10px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+#winloss {
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-bottom: 10px;
 }
 
 #wins {
-
+  font-family: 'Times New Roman', Times, serif;
+  padding-top: 5px;
 }
 
 #losses {
-
+  font-family: 'Times New Roman', Times, serif;
 }
 
-crystals {
-
+#crystals {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 totalscoreis {
-  background-color: #009999;
-  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
-score {
-  color: #fff;
-  background-color: #009999
+#score {
+  padding: 15px;
+  margin-top: 5px;
 }
 
 
