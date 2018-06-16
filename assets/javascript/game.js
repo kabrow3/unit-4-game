@@ -58,20 +58,19 @@ for (var i = 0; i < 4; i++) {
     userScore += crystalValue;
     $("#score").html("<h2>" + userScore + "</h2>");
 
-    // All of the same game win-lose logic applies. So the rest remains unchanged.
-    alert("New score: " + userScore);
+  alert("New score: " + userScore);
 
     if (userScore === targetNumber) {
+      wins++;
       $("#wins").text("Wins " + wins);
       alert("You win!");
-      wins++;
       reset();
     }
 
     else if (userScore >= targetNumber) {
+      losses++;
       $("#losses").text("Losses " + losses);
       alert("You lose!!");
-      losses++;
       reset();
     }
 
